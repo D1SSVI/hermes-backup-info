@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Hermes Backup — Privacy Policy</title><link rel="stylesheet" href="style.css"></head>
+<body><header><nav aria-label="Main navigation"><a href="index.html">Hermes Backup</a><a href="privacy.html">Privacy policy</a></nav></header><main><h1>Hermes Backup — Privacy Policy</h1>
+<p>Last updated: 15 October 2026</p>
+<h2>Purpose and intended user</h2>
+<p>Hermes Backup is a personal integration operated by its owner to store and retrieve encrypted backups in the owner&#x27;s Google Drive account. It is not offered as a public service.</p>
+<h2>Google account access</h2>
+<p>The owner signs in through Google&#x27;s authorization process. The integration does not ask for or store the owner&#x27;s Google account password. It stores OAuth credentials on the owner&#x27;s server so that it can perform authorized backup operations.</p>
+<p>The requested Google Drive scope is <code>drive.file</code>. The integration uses it to create, list, read, update, and delete backup-related files that the app creates or that are explicitly authorized for use with it. It does not request blanket access to all files in Google Drive.</p>
+<h2>Data handled</h2>
+<p>Backup data may include personal documents, application configuration, databases, and recovery materials selected by the owner. Restic encrypts backup contents before they are uploaded. Google Drive also receives the requests and file metadata necessary to store and retrieve the encrypted backup objects.</p>
+<p>Local operational logs may record timestamps, error details, file identifiers, and transfer metadata. Logs and OAuth credentials are not intended for public disclosure.</p>
+<h2>Use and sharing</h2>
+<p>Data is used to create, maintain, verify, and restore backups. The integration does not sell data or use it for advertising. Google processes the uploaded objects and associated requests as the storage provider under its own applicable policies.</p>
+<p>This backup integration does not transmit Google Drive file contents to AI models and does not grant AI agents access to its OAuth credentials. This statement concerns the backup integration, not other applications whose data the owner chooses to back up.</p>
+<h2>Retention and deletion</h2>
+<p>Backups remain until the owner deletes them or configures a retention policy. No fixed automatic retention period is promised by this policy. The owner can revoke the integration&#x27;s access through Google Account settings. Revoking access does not automatically delete existing backups. Deletion should be coordinated with Restic so that remaining snapshots stay usable.</p>
+<h2>Security and owner control</h2>
+<p>Restic encrypts backup contents, and access to local credentials is restricted on the owner&#x27;s server. These measures do not guarantee absolute security. Access to the Google account and the backup decryption password must be protected separately.</p>
+<h2>Contact and changes</h2>
+<p>For questions about this personal integration, use the support email shown on its Google OAuth consent screen. This policy will be updated when the integration&#x27;s data handling changes materially.</p>
+<h2>This information website</h2>
+<p>These static information pages do not include analytics, forms, or embedded third-party content. GitHub Pages hosts the website and may process visitor connection data under the GitHub Privacy Statement.</p></main><footer>Personal backup integration · <a href="privacy.html">Privacy policy</a> · <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a></footer></body></html>
